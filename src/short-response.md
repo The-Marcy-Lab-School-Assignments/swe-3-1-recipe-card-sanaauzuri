@@ -14,6 +14,7 @@ What is the difference between the `<head>` and `<body>` sections of an HTML doc
 Why should we use semantic elements like `<header>`, `<main>`, and `<footer>` instead of using `<div>` tags for everything?
 
 **Your Answer:**
+We use semantic elements like `<header>`, `<main>`, and `<footer>` instead of using `<div> tags for everything to provide structure to keep our webpage organized and these elements ahve names that describe their function.
 
 
 ## Question 3: CSS Selectors
