@@ -67,6 +67,7 @@ What problem does `box-sizing: border-box` solve? Why do we include it in a CSS 
 
 **Your Answer:**
 
+`box-sizing: border-box` solves the default, where width and height only apply to the content area, with padding and border added on top. So an element ends up bigger than the size you set. This makes layout calculations confusing because the number you type isn't the number you get. We put it in a CSS reset at the top of our files so that width and height always include padding and border, making the actual size of an element match what we expect and keeping our layouts predictable.
 
 ## Question 6: Display Property
 
@@ -74,3 +75,4 @@ What is the difference between `display: block`, `display: inline`, and `display
 
 **Your Answer:**
 
+The difference between `display: block`, `display: inline`, and `display: inline-block` is whether the element starts on a new line and whether you can control its width/height. `block` elements stack on their own line and let you set width/height. `inline` elements sit next to each other in a line but ignore width/height. `inline-block` allows elements sit next to each other like inline, but you can still set their width/height like block. I'd use `inline-block` for something like nav links, where I want them side by side but still need to control their size.
